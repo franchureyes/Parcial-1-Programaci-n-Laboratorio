@@ -111,7 +111,7 @@ int main(void)
 			break;
 		default:
 
-			printf("Por favor, ingrese una opción del 1 al 6");
+			printf("Por favor, ingrese una opción del 1 al 6\n\n");
 
 			break;
 
