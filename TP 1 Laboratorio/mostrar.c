@@ -7,8 +7,6 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-/*Esta función muestra los distintos resultados obtenidos*/
-
 void mostrarResultadosAerolineas(float kilometros, float precioAerolinea, float tarjetaDebitoAerolinea, float tarjetaCreditoAerolinea, float bitcoinAerolinea, float precioUnitarioAerolinea)
 {
 	printf("\nKMs ingresados: %.2f", kilometros);

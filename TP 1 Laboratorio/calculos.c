@@ -8,8 +8,6 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-/*Esta funcion calcula los precios y las diferencias*/
-
 void calcularPrecio(float precio, float kilometros, float* tarjetaDebito, float* tarjetaCredito, float* bitcoin, float* precioUnitario, int* bandera)
 {
 	float descuentoDebito;
