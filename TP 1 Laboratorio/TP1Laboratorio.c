@@ -31,9 +31,9 @@ int main(void)
 
 	while(opcion!=6)
 	{
-		printf("1) Ingresar los kilometros \n"
-				"2) Ingresar el precio de vuelo \n"
-				"3) Calcular todos los costos \n"
+		printf("1) Ingresar los kilometros: KM = %.2f\n", kilometrosIngresados);
+		printf("2) Ingresar el precio de vuelo: Aerolinea = $ %.2f Latam = $ %.2f\n", precioAerolinea, precioLatam);
+		printf("3) Calcular todos los costos\n"
 				"4) Informar resultados \n"
 				"5) Carga forzada de datos \n"
 				"6) Salir \n");
@@ -54,14 +54,14 @@ int main(void)
 		case 2:
 			while(precioAerolinea<1)
 			{
-				printf("Ingrese el precio del vuelo en Aerolineas: ");
+				printf("Ingrese el precio del vuelo en Aerolineas (no puede ingresar 0): ");
 				fflush(stdin);
 				scanf("%f", &precioAerolinea);
 			}
 
 			while(precioLatam<1)
 			{
-				printf("Ingrese el precio del vuelo en Latam: ");
+				printf("Ingrese el precio del vuelo en Latam (no puede ingresar 0): ");
 				fflush(stdin);
 				scanf("%f", &precioLatam);
 			}
