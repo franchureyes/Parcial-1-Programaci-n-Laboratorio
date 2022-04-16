@@ -3,7 +3,7 @@
  *
  *  Created on: 8 abr. 2022
  *      Author: Fran
- */
+Esta funcion calcula los precios    */
 
 #include <stdio.h>
 #include <stdlib.h>

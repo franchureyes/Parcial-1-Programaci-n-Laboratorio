@@ -1,4 +1,4 @@
-//Trabajo Práctico Reyes Francisco DIV D 43.670.739
+//Trabajo Práctico Reyes Francisco Nicolas DIV D 43.670.739
 
 #include <stdlib.h>
 #include <stdio.h>
