@@ -24,7 +24,7 @@ int main(void) {
 	int flagOpcion = 0;
 	char salir = 'n';
 	char calle[25];
-	int cantidadPersonas=0;;
+	int cantidadPersonas=0;
 	int cantidadHabitaciones=0;
 	int tipoVivienda=0;
 	int legajoCensista=0;
