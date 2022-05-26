@@ -22,6 +22,12 @@ int menuPrincipal()
 		printf("Ingrese una opcion: \n");
 		scanf("%d", &opcion);
 
+		while(opcion<1 || opcion>6)
+		{
+			printf("Error, ingrese una opcion valida: \n");
+			scanf("%d", &opcion);
+		}
+
 	return opcion;
 }
 
