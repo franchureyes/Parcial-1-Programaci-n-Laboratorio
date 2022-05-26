@@ -158,6 +158,7 @@ int modificarVivienda(Vivienda* lista, int len)
 	int retorno = 0;
 	int indice;
 
+	listarViviendas(lista, len);
 	printf("Ingresar el id de la vivienda a modificar");
 	fflush(stdin);
 	scanf("%d", &idAUsar);
