@@ -11,7 +11,6 @@
 #include "Viviendas.h"
 #include "menu.h"
 #include "Censistas.h"
-#include "utn.h"
 #include <ctype.h>
 #include "inputs.h"
 
