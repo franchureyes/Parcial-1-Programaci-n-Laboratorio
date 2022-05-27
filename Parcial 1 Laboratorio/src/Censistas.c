@@ -11,7 +11,7 @@
 #include "Viviendas.h"
 #include <string.h>
 
-int listarCensistas(Censista* censistas, int tamCen)
+int listarCensistas(Censista* censistas, int tamCen, Vivienda* lista, int len)
 {
 int i;
 int todoOk = -1;
@@ -25,7 +25,7 @@ int todoOk = -1;
 	                if(censistas[i].isEmpty == 0)
 	                {
 	                	ordenarCensista(censistas, tamCen);
-	                    printf("\nLEGAJO CENSISTA: %d | NOMBRE: %s | EDAD: %d | TELEFONO: %s\n", censistas[i].legajoCensista, censistas[i].nombre, censistas[i].edad, censistas[i].telefono);
+	                    printf("\nLEGAJO CENSISTA: %d | NOMBRE: %s | EDAD: %d | TELEFONO: %s | Id Vivienda: %d | Tipo vivienda: %d\n", censistas[i].legajoCensista, censistas[i].nombre, censistas[i].edad, censistas[i].telefono, lista[i].idVivienda, lista[i].tipoVivienda);
 	                }
 	            }
 	            todoOk=0;

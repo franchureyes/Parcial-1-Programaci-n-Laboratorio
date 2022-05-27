@@ -116,5 +116,7 @@ int ordenarViviendasPorCalle(Vivienda* lista, int len);
 int validarVivienda(Vivienda* lista, int len, int id);
 
 
+
+
 #endif /* VIVIENDAS_H_ */
 

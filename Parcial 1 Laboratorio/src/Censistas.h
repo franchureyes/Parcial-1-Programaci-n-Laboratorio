@@ -16,7 +16,7 @@ typedef struct
 	int isEmpty;
 }Censista;
 
-int listarCensistas(Censista* censistas, int tamCen);
+int listarCensistas(Censista* censistas, int tamCen, Vivienda* lista, int len);
 int ordenarCensista(Censista* censistas, int tamCen);
 int validarCensista(Censista* censistas, int tamCen, int id);
 int buscarCensista(Censista* censistas, int tamCen, int id, int* pIndex);
